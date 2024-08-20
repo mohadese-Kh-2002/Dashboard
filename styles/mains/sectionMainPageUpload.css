@@ -1,0 +1,123 @@
+.upload-container {
+    gap: 3rem;
+}
+.upload-drag {
+}
+.upload-form {
+    min-height: 20rem;
+    gap: 1rem;
+    border: 1px dashed #ebebeb;
+}
+.upload-drag__title,
+.upload-drag__txt,
+.upload-drag__or,
+.upload-drag__input-txt {
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--color-text);
+}
+.upload-drag__title {
+}
+.upload-drag__or {
+    opacity: 0.6;
+}
+.upload-drag__input {
+}
+.upload-form label {
+    background-color: var(--color-text);
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+.upload-drag__input-txt,
+label svg path {
+    color: var(--color-section);
+    fill: var(--color-section);
+}
+.upload-drag__txt {
+    display: inline-block;
+    margin-top: 1rem;
+    opacity: 0.6;
+}
+.upload-search {
+}
+.upload-search__box,
+.upload-search__form {
+    border-radius: 0.8rem;
+    -webkit-border-radius: 0.8rem;
+    -moz-border-radius: 0.8rem;
+    -ms-border-radius: 0.8rem;
+    -o-border-radius: 0.8rem;
+}
+.upload-search__form {
+    gap: 1rem;
+    padding: 0.75rem;
+    background-color: var(--color-section);
+}
+.upload-search__form svg path {
+    fill: var(--color-text);
+}
+.upload-search__input {
+    padding: 0.5rem;
+    flex-basis: 80%;
+}
+.upload-search__wrapper-box {
+    border: 2px dashed #9747ff;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.upload-search__box {
+    background-color: var(--color-background);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+.upload-search__box-top{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.upload-search__box svg path {
+    fill: var(--color-text);
+}
+.upload-search__wrapper-info-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.upload-search__info-img {
+}
+.upload-search__info-box {
+    color: var(--color-text);
+    font-size: 1.2rem;
+}
+.upload-search__info-name {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.upload-search__info-dsc {
+    opacity: 0.6;
+}
+
+.upload-search__box-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--color-text);
+}
+.upload-progress{
+    background-color: #EBEBEB;
+    flex-basis: 85%;
+
+}
+.upload-progress-bar{
+background-color: #2E61B4;
+}

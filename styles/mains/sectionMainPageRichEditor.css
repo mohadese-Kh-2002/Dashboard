@@ -1,0 +1,5 @@
+.textEditor, .textEditor *{
+    background-color: var(--color-section);
+    font-family: 'poppins';
+    color: var( --color-text);
+}

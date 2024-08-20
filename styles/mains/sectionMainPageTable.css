@@ -1,0 +1,84 @@
+
+.container-table{
+    gap: 3rem;
+    padding-bottom: 2rem;
+}
+.table-content *{
+    gap: 2rem;
+    background-color: var(--color-section);
+}
+.table-content{
+    box-shadow: 0px 8px 13px -3px #00000012;
+    border: 1px solid #E2E8F0;
+    overflow-x: auto;
+    border-radius: .8rem;
+    background-color: var(--color-section);
+    -webkit-border-radius: .8rem;
+    -moz-border-radius: .8rem;
+    -ms-border-radius: .8rem;
+    -o-border-radius: .8rem;
+}  
+
+.table__title{
+    color: var(--color-title-table);
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding: 2rem;
+    width: 100%;
+   
+}
+
+.table-head th:first-child,.table-body tr td:first-child{
+  width: 40%;
+}
+.table-head th:not(:first-child),.table-body tr td:not(:first-child){
+    width:15% ;
+}
+
+.table-title__column{
+    color: var(--color-title-head);
+    font-weight: 600;
+
+}
+.table-body tr, thead tr{
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start
+}
+
+
+.table-body {
+    font-weight: 400;
+}
+.table-body tr:not(:last-child),.table-head,.table__title{
+    border-bottom: 1px solid #E2E8F0;
+}
+.category,.price,.sold,.table__product-name{
+    color:var(--color-text);
+}
+
+.product-Name{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.table__product-img{
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.profit{
+    color: #10B981;
+}
+th,td{
+    padding: 2rem ;
+    text-align: left;
+    
+}
+tr:hover * ,tr:hover{
+    background: #d1d1d1;
+}
